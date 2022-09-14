@@ -112,6 +112,11 @@ h5 {
     padding-left: 10%;
 }
 
+.card-title {
+    padding-top: 0px;
+    padding-bottom: 8px;
+}
+
 .col {
     padding: 0;
 }
