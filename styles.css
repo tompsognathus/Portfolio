@@ -15,6 +15,24 @@ footer {
     width: 100%;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 10rem;
+    /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    /* Footer height */
+}
+
 h1 {
     font-family: 'Cinzel', serif;
     margin-bottom: 0;
@@ -38,6 +56,33 @@ h3 {
 .nav-link {
     font-family: 'Cinzel', serif;
     font-weight: 800;
+}
+
+#tabs {
+    background: #001c48;
+    color: #eee;
+}
+
+#tabs h6.section-title {
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
 }
 
 /* Games section */
@@ -66,13 +111,14 @@ h3 {
 
 /* Video embed */
 @media only screen and (min-width: 768px) {
-    iframe{
-      height: 13em;
+    iframe {
+        height: 13em;
     }
-    .card{
-      width: 100%;
+
+    .card {
+        width: 100%;
     }
-  }
+}
 
 /* Footer */
 .btn-social {

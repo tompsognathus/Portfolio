@@ -1,2 +1,2 @@
 # Portfolio
-game dev and game design portfolio
+Game Dev & Design Portfolio
