@@ -1,130 +1,144 @@
 body {
-      background-color: #00112d;
-      color: #ffd900;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 800;
-      text-align: center;
-  }
-#header {
-      background-color: #001c49;
-  }
-footer {
-      bottom: 0;
-      margin-top: 5rem;
-      width: 100%;
-  }
+    background-color: #00112d;
+    color: #ffd900;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
 #page-container {
-      min-height: 100vh;
-      position: relative;
-  }
+    min-height: 100vh;
+    position: relative;
+}
+
 #content-wrap {
-      padding-bottom: 10rem;
+    padding-bottom: 10rem;
+}
 
-    /* Footer height */
-  }
+#header {
+    background-color: #001c49;
+}
+
 #footer {
-      bottom: 0;
-      height: 10rem;
-      position: absolute;
-      width: 100%;
+    bottom: 0;
+    height: 10rem;
+    position: absolute;
+    width: 100%;
+}
 
-    /* Footer height */
-  }
 h1 {
-      font-family: 'Cinzel', serif;
-      font-size: calc(1rem + 5vw);
-      padding-bottom: 0;
-      padding-top: 2.5rem;
-  }
+    font-family: 'Cinzel', serif;
+    font-size: calc(1rem + 5vw);
+    padding-bottom: 0;
+    padding-top: 2.5rem;
+}
+
 h2 {
-      font-family: 'Cinzel', serif;
-  }
+    font-family: 'Cinzel', serif;
+}
+
 h3 {
-      font-family: 'Cinzel', serif;
-      padding-top: 2rem;
-  }
+    font-family: 'Cinzel', serif;
+    padding-top: 2rem;
+}
+
 h5 {
-      color: #b6d3ff;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
-      padding-bottom: 3rem;
-      padding-top: 1rem;
-  }
+    color: #b6d3ff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
 .content {
-      padding: 0 10%;
-  }
+    padding: 0 10%;
+}
+
 /* Navigation tabs */
 .nav-link {
-      font-family: 'Cinzel', serif;
-      font-weight: 800;
-  }
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+}
+
 .nav-tabs {
-      background-color: #001c49;
-      border-bottom: 0px;
-  }
+    background-color: #001c49;
+    border-bottom: 0px;
+}
+
 #tabs {
-      background: #00112d;
-      color: #eee;
-      font-size: calc(12px + 1.5vw);
-  }
+    background: #00112d;
+    color: #eee;
+    font-size: calc(12px + 1.5vw);
+}
+
 #tabs h6.section-title {
-      color: #eee;
-  }
+    color: #eee;
+}
+
 #tabs .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-      background-color: transparent;
-      border-bottom: 4px solid !important;
-      border-color: transparent transparent white;
-      color: white;
-      font-size: 20px;
-      font-weight: bold;
-  }
+    background-color: transparent;
+    border-bottom: 4px solid !important;
+    border-color: transparent transparent white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #tabs .nav-tabs .nav-link {
-      border-top-left-radius: .25rem;
-      border-top-right-radius: .25rem;
-      border: 1px solid transparent;
-      color: white;
-      font-size: 20px;
-  }
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 20px;
+}
+
 /* Games section */
 .card {
-      background-color: #0f141c;
-      border-color: #4f5e74;
-      border-radius: 0 5pt 5pt 0;
-      border-width: 2px;
-      margin: 3rem auto;
-      max-width: 70rem;
-  }
+    background-color: #0f141c;
+    border-color: #4f5e74;
+    border-radius: 0 5pt 5pt 0;
+    border-width: 2px;
+    margin: 3rem auto;
+    max-width: 70rem;
+}
+
 .card-body {
-      font-size: 1rem;
-      padding-left: 10%;
-      padding: 8%;
-      text-align: left;
-  }
+    font-size: 1rem;
+    padding-left: 10%;
+    padding: 8%;
+    text-align: left;
+}
+
 .card-title {
-      padding-bottom: 8px;
-      padding-top: 0px;
-  }
+    padding-bottom: 8px;
+    padding-top: 0px;
+}
+
 .col {
-      padding: 0;
-  }
+    padding: 0;
+}
+
 .btn-play {
-      background-color: #b6d3ff;
-      color: black;
-  }
+    background-color: #b6d3ff;
+    color: black;
+}
+
 /* Video embed */
 @media only screen and (min-width: 768px) {
     iframe {
-          height: 13em;
-      }
+        height: 13em;
+    }
+
     .card {
-          width: 100%;
-      }
-  }
+        width: 100%;
+    }
+}
+
 /* Footer */
 .btn-social {
-      border-color: rgb(95, 95, 95);
-      border-radius: 100%;
-      color: white;
-      font-size: 1.1rem;
-  }
+    border-color: rgb(95, 95, 95);
+    border-radius: 100%;
+    color: white;
+    font-size: 1.1rem;
+}
