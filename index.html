@@ -39,31 +39,36 @@
             <!-- Navigation -->
             <section id="tabs">
                 <!-- Tabs navs -->
-                <ul class="content nav nav-tabs nav-justified mb-2" id="ex-with-icons" role="tablist">
+                <ul class="content nav nav-tabs nav-justified mb-3" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="ex-with-icons-tab-1" data-bs-toggle="tab"
-                            href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
-                            aria-selected="true"><i class="fa-solid fa-gamepad fa-fw me-2"></i>Game&nbsp;Dev (Unity)</a>
+                        <a class="nav-link active" id="game-dev-tab" data-bs-toggle="tab" href="#game-dev-tabs"
+                            role="tab" aria-controls="game-dev-tabs" aria-selected="true"><i
+                                class="fa-solid fa-gamepad fa-fw me-2"></i>Game&nbsp;Dev (Unity)</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="ex-with-icons-tab-2" data-bs-toggle="tab" href="#ex-with-icons-tabs-2"
-                            role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false"><i
+                        <a class="nav-link" id="tabletop-tab" data-bs-toggle="tab" href="#tabletop-tabs" role="tab"
+                            aria-controls="tabletop-tabs" aria-selected="false"><i
                                 class="fa-solid fa-dice-d20 fa-fw me-2"></i>Tabletop Games</a>
                     </li>
+                    <!-- <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="blog-tab" data-bs-toggle="tab" href="#blog-tabs" role="tab"
+                            aria-controls="blog-tabs" aria-selected="false"><i
+                                class="fa-solid fa-pencil fa-fw me-2"></i>D&D Blog</a>
+                    </li> -->
                 </ul>
                 <!-- Tabs navs [end] -->
 
                 <!-- Tabs content -->
                 <div class="tab-content" id="ex-with-icons-content">
-                    <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
-                        aria-labelledby="ex-with-icons-tab-1">
+                    <div class="tab-pane fade show active" id="game-dev-tabs" role="tabpanel"
+                        aria-labelledby="game-dev-tab">
                         <!-- Video Games -->
                         <div class="games-section content">
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-md-6">
                                         <div class="ratio ratio-16x9">
-                                            <iframe class=" embed-responsive-item"
+                                            <iframe class="embed-responsive-item"
                                                 src="https://www.youtube.com/embed/5XVa716f2Xk?rel=0&amp;modestbranding=1&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=5XVa716f2Xk"
                                                 frameborder="0" allow="fullscreen">
                                             </iframe>
@@ -71,17 +76,17 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="card-body">
-                                            <h5 class="card-title">Rail Shooter</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural
-                                                lead-in to
-                                                additional content.</p>
+                                            <h5 class="card-title">Island Defender</h5>
+                                            <p class="card-text">A fast-paced, thrilling rail shooter in a beautiful
+                                                setting.</p>
                                             <p class="card-text"><small class="text-muted">
-                                                    Complete C# Unity Game Developer 3D Online Course
-                                                    <br>
-                                                    on GameDev.tv
+                                                    A prototype completed as part of the Complete C# Unity
+                                                    Game Developer 3D Online Course on GameDev.tv
+                                                    <br><br>
+                                                    Added unique features beyond the scope of the lectures such as
+                                                    underwater movement, collectibles and a UI
                                                 </small></p>
-                                            <button type="button" class="btn btn-play">Play Now!</button>
+                                            <!-- <button type="button" class="btn btn-play">Play Now! (coming soon)</button> -->
                                         </div>
                                     </div>
                                 </div>
@@ -99,16 +104,13 @@
                                     <div class="col-md-6">
                                         <div class="card-body">
                                             <h5 class="card-title">Project Boost</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural
-                                                lead-in to
-                                                additional content.</p>
-                                            <p class="card-text"><small class="text-muted">Complete C# Unity Game
-                                                    Developer 3D Online Course
-                                                    <br>
-                                                    on GameDev.tv
+                                            <p class="card-text">A constant balancing act relying on skill and patience.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">
+                                                    A prototype completed as part of the Complete C# Unity Game
+                                                    Developer 3D Online Course on GameDev.tv
                                                 </small></p>
-                                            <button type="button" class="btn btn-play">Play Now!</button>
+                                            <!-- <button type="button" class="btn btn-play">Play Now! (coming soon)</button> -->
                                         </div>
                                     </div>
                                 </div>
@@ -126,32 +128,225 @@
                                     <div class="col-md-6">
                                         <div class="card-body">
                                             <h5 class="card-title">First Person Shooter</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural
-                                                lead-in to
-                                                additional content.</p>
-                                            <p class="card-text"><small class="text-muted">Complete C# Unity Game
-                                                    Developer 3D Online Course
-                                                    <br>
-                                                    on GameDev.tv
+                                            <p class="card-text">A first person shooter with complex AI enemies</p>
+                                            <p class="card-text"><small class="text-muted">
+                                                    A prototype completed as part of the Complete C# Unity Game
+                                                    Developer 3D Online Course on GameDev.tv
+                                                    <br><br>
+                                                    Added features beyond the scope of the course including:
+                                                    <br><br>
+                                                    A complex state-driven AI that uses visual and auditory input to
+                                                    notice and stalk the player or other environmental stimuli.
+                                                    <br><br>
+                                                    Explosive barrels that can be used as traps or lures.
                                                 </small></p>
-                                            <button type="button" class="btn btn-play">Play Now!</button>
+                                            <!-- <button type="button" class="btn btn-play">Play Now! (coming soon)</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="ratio ratio-16x9">
+                                            <iframe class="embed-responsive-item"
+                                                src="https://www.youtube.com/embed/BavPRveYnpg?rel=0&amp;modestbranding=1&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=BavPRveYnpg"
+                                                allow="fullscreen"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">TileVania</h5>
+                                            <p class="card-text">A 2D platformer</p>
+                                            <p class="card-text"><small class="text-muted">
+                                                    A prototype completed as part of the Complete C# Unity Game
+                                                    Developer 2D Online Course on GameDev.tv
+                                                </small></p>
+                                            <!-- <button type="button" class="btn btn-play">Play Now! (coming soon)</button> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Games [end] -->
+                        <!-- Video Games [end] -->
                     </div>
-                    <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
-                        aria-labelledby="ex-with-icons-tab-2">
+                    <div class="tab-pane fade" id="tabletop-tabs" role="tabpanel" aria-labelledby="tabletop-tab">
                         <!-- Tabletop -->
                         <div class="content">
-                            <h3>Warhammer 40k Crusade Mission (Unofficial)</h3>
+                            <h2>Warhammer 40k Crusade Mission (Unofficial)</h2>
+                            <!-- RPGs -->
+                            <div class="warhammer-section content">
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-6">
+                                            <div class="ratio ratio-4x3">
+                                                <img src="REQUIREDFINALmap3.png" alt="Crusade mission battle map">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Orbital Inferno</h5>
+                                                <p class="card-text">A Warhammer 40k Crusade Incursion mission</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        A game full of choices with many possible outcomes.
+                                                        <br>
+                                                        Do the players form a temporary alliance to achieve a common
+                                                        goal? Will
+                                                        one choose to betray the other for a greater gain but at greater
+                                                        risk?
+                                                    </small></p>
+                                                <a role="button" class="btn btn-play"
+                                                    href="FINALmission3.1UNOFFICIAL.pdf">View Mission!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- RPGs [end] -->
+                            <h2>FED League Adventures (D&D 5e)</h2>
+                            <p class="card-text">I have been designing and writing adventures for the FED League since
+                                2020.</p>
+                            <div class="warhammer-section content">
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-6">
+                                            <div class="ratio ratio-1x1">
+                                                <img src="trapped_wizard_puzzle.png"
+                                                    alt="diagram of levers and grates for trapped wizard puzzle">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Trapped Wizard Puzzle</h5>
+                                                <p class="card-text">Get from A to the wizard's secret lab</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        <em> Finally, you’ve reached the bottom floor of the lighthouse.
+                                                            In
+                                                            the center of the room you see a large
+                                                            round hole in the ground covered by a heavy metal grate. A
+                                                            continuous stream of water rushes
+                                                            through the flooded tunnel beneath the grate. Judging by the
+                                                            sheer amount of noise it’s making,
+                                                            you can’t help but think of how powerful the current must
+                                                            be.
+                                                            You also notice that the walls of the
+                                                            tunnel are covered in some kind of slimy, spongy goo. A big
+                                                            arrow carved into the stone floor points
+                                                            towards the hole and, next to it, in big writing, an
+                                                            inscription
+                                                            reads ‘SECRET LAB’. The only other
+                                                            thing in the room are 8 levers next to the wall. Now that
+                                                            you
+                                                            see this, you remember one of the
+                                                            drawings you saw on the floor above.
+                                                        </em>
+                                                    </small></p>
+                                                <a role="button" class="btn btn-play"
+                                                    href="FINALmission3.1UNOFFICIAL.pdf">View Puzzle!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <h3>FED League Adventures (D&D 5e)</h3>
-                            <p class="card-text">I have been designing and writing adventures for the FED League since 2020.</p>
-
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Trapped Wizard</h5>
+                                                <p class="card-text">A 6th Level FED One-Shot</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        <em> The PCs are contacted by a desperate wizard who got
+                                                            himself
+                                                            trapped in his own lab underneath a lighthouse and begs
+                                                            them
+                                                            to rescue him. What initially sounded like a
+                                                            straightforward
+                                                            rescue mission turns out to be far more dangerous as the
+                                                            PCs
+                                                            find out that a being from another dimension is toying
+                                                            with
+                                                            them, trying to stop them from reaching the poor wizard.
+                                                        </em>
+                                                    </small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-0">
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Joy to the World</h5>
+                                                <p class="card-text">A 3rd Level FED Christmas One-Shot</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        <em> It’s Christmas Eve and the PCs are fighting their way
+                                                            through a snowstorm, in search of Skaland - the northernmost
+                                                            village in the world. Every year, the inhabitants of Skaland
+                                                            throw a huge party for Santa’s kobolds who get to enjoy
+                                                            their one night off after yet another year of hard work. But
+                                                            what starts off as an innocent celebration ends in disaster.
+                                                            Does the party have what it takes to save Christmas?
+                                                        </em>
+                                                    </small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-0">
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Cloud Factory</h5>
+                                                <p class="card-text">A 4th Level FED One-Shot</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        <em> The PCs have been summoned to help a group of archeologists
+                                                            who’ve recently uncovered and accidentally awakened the
+                                                            ancient mummy lord
+                                                            Nuben-aren-ha-ra-theris-mar-kah-nesh-u-tah who’s taken over
+                                                            the region’s cloud factory and turned the area into an
+                                                            inhospitable desert, forcing all of its inhabitants to
+                                                            retreat underground. Can our heroes reclaim and repair the
+                                                            factory to end the droughts and suffering?
+                                                        </em>
+                                                    </small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-0">
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Fairwater Trial</h5>
+                                                <p class="card-text">A 1st Level FED One-Shot</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        <em> The PCs are visiting the town of Fairwater in the middle of
+                                                            the Fairwater Spring Festival. Everyone’s having a good time
+                                                            until they find themselves watching the town’s hospital go
+                                                            down in flames. As impartial visitors in town, they are
+                                                            summoned for jury duty. What choices will they make when
+                                                            presented with a moral dilemma?
+                                                        </em>
+                                                    </small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-0">
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Gnoll Invasion</h5>
+                                                <p class="card-text">A 1st Level FED One-Shot</p>
+                                                <p class="card-text"><small class="text-muted">
+                                                        <em> The players find themselves captured by a gnoll clan and
+                                                            are waiting to be executed. They learn that the gnolls are
+                                                            working with the goblins and are planning to mount
+                                                            simultaneous attacks on Anacra. One from the East and one at
+                                                            The Wall. Moreover, the gnolls are planning to attack a
+                                                            nearby human settlement named Skana the next morning. Can
+                                                            the players escape in time to warn Skana and help them find
+                                                            a way to fight off the gnolls and warn the kingdom?
+                                                        </em>
+                                                    </small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- Tabletop [end] -->
                     </div>
