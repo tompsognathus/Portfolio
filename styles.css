@@ -1,8 +1,10 @@
+html, body { margin: 0; padding: 0; } 
+
 body {
-    background-color: #00112d;
-    color: #ffd900;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    background-color: #FFF2D8;
+    color: #113946;
+    font-family: 'Bellefair', 'Raleway', sans-serif;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -16,7 +18,7 @@ body {
 }
 
 #header {
-    background-color: #001c49;
+    background-color: #BCA37F;
 }
 
 #footer {
@@ -27,28 +29,40 @@ body {
 }
 
 h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'IM Fell Double Pica SC', serif;
+    letter-spacing: 2px;
     font-size: calc(1rem + 5vw);
     padding-bottom: 0;
     padding-top: 2.5rem;
+    color: #113946;
 }
 
 h2 {
-    font-family: 'Cinzel', serif;
-    padding-top: 2rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    letter-spacing: 2px;
+    font-size: calc(1rem + 3vw);
+    color: #113946;
 }
 
 h3 {
-    font-family: 'Cinzel', serif;
+    font-family: 'IM Fell Double Pica SC', serif;
+    letter-spacing: 2px;
     padding-top: 2rem;
 }
 
 h5 {
-    color: #6cbdef;
-    font-family: 'Raleway', sans-serif;
+    color: #113946;
+    font-family: 'IM Fell Double Pica SC', sans-serif;
+    letter-spacing: 2px;
     font-weight: 600;
+    font-size: 2rem;
     padding-bottom: 3rem;
     padding-top: 1rem;
+}
+
+.subsubtitle {
+    color: #113946;
+    font-size: 1.5rem;
 }
 
 .content {
@@ -57,31 +71,32 @@ h5 {
 
 /* Navigation tabs */
 .nav-link {
-    font-family: 'Cinzel', serif;
+    font-family: 'IM Fell Double Pica SC', serif;
+    letter-spacing: 2px;
     font-weight: 800;
 }
 
 .nav-tabs {
-    background-color: #001c49;
+    background-color: #EAD7BB;
     border-bottom: 0px;
 }
 
 #tabs {
-    background: #00112d;
-    color: #eee;
+    background: #FFF2D8;
+    color: #113946;
     font-size: calc(12px + 1.5vw);
 }
 
 #tabs h6.section-title {
-    color: #eee;
+    color: #113946;
 }
 
 #tabs .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     background-color: transparent;
     border-bottom: 4px solid !important;
-    border-color: transparent transparent white;
-    color: white;
+    border-color: transparent transparent #113946;
+    color: #113946;
     font-size: 20px;
     font-weight: bold;
 }
@@ -90,30 +105,38 @@ h5 {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     border: 1px solid transparent;
-    color: white;
-    font-size: 20px;
+    color: #113946;
+    font-size: calc(1rem + 0.5vw);
 }
 
 /* Games section */
+.games-section {
+    padding-bottom: 3rem;
+}
 .card {
-    background-color: #0f141c;
-    border-color: #4f5e74;
-    border-radius: 0 5pt 5pt 0;
-    border-width: 2px;
+    background-color: #EAD7BB;
+    border-color: #BCA37F;
+    border-radius: 5pt 5pt 5pt 5pt;
+    border-width: 6px;
     margin: 3rem auto;
     max-width: 70rem;
+    padding: 3%;
 }
 
 .card-body {
     font-size: 1rem;
+    padding: 0%;
     padding-left: 10%;
-    padding: 5%;
     text-align: left;
 }
 
 .card-title {
     padding-bottom: 4px;
     padding-top: 0px;
+}
+
+.card-subtitle {
+    padding: 0px;
 }
 
 .card-text {
@@ -133,9 +156,17 @@ h5 {
 }
 
 .btn-play {
-    background-color: #99a7bd;
-    color: black;
+    background-color: #FFF2D8;
+    color: #113946;
+    font-family: 'IM Fell Double Pica SC', serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    border-color: #BCA37F;
+    border-width: 4px;
+
 }
+
 
 
 /* Video embed */
@@ -153,6 +184,20 @@ h5 {
 .btn-social {
     border-color: rgb(95, 95, 95);
     border-radius: 100%;
-    color: white;
-    font-size: 1.1rem;
+    color: #FFF2D8;
+    font-size: 2rem;
+
+}
+.myfooter {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer-copyright {
+    background-color: #113946;
+    color: #FFF2D8;
+}
+
+.footer-socials {
+    background-color: #113946;
+    color: #FFF2D8;
 }
