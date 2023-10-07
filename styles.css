@@ -188,12 +188,12 @@ h5 {
 
 /* Footer */
 .btn-social {
-    border-color: rgb(95, 95, 95);
+    border-color: #FFF2D8;
     border-radius: 100%;
     color: #FFF2D8;
     font-size: 2rem;
-
 }
+
 .myfooter {
     display: flex;
     flex-wrap: nowrap;
