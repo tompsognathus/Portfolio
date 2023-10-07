@@ -16,7 +16,7 @@ body {
 }
 
 #content-wrap {
-    padding-bottom: 10rem;
+    padding-bottom: 17rem;
 }
 
 #header {
@@ -116,9 +116,6 @@ h5 {
 }
 
 /* Games section */
-.games-section {
-    padding-bottom: 3rem;
-}
 .card {
     background-color: #EAD7BB;
     border-color: #BCA37F;
