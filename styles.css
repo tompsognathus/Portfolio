@@ -118,6 +118,10 @@ h5 {
     margin-top: 3rem;
 }
 
+.cards-section-description {
+    font-size: 1.5rem;
+}
+
 .card {
     background-color: #EAD7BB;
     border-color: #BCA37F;
@@ -135,7 +139,7 @@ h5 {
     padding-bottom: 5%;
 }
 .card-body {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0% 10%;
 
     text-align: left;
