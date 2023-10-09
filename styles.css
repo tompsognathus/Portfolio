@@ -128,10 +128,12 @@ h5 {
     padding: 3%;
 }
 
-.video {
+.card-video {
     padding-bottom: 5%;
 }
-
+.card-image {
+    padding-bottom: 5%;
+}
 .card-body {
     font-size: 1rem;
     padding: 0% 10%;
@@ -173,6 +175,8 @@ h5 {
     font-size: 1.5rem;
     border-color: #BCA37F;
     border-width: 4px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 
 }
 
