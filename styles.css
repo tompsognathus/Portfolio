@@ -42,6 +42,7 @@ h1 {
 h2 {
     font-family: 'IM Fell Double Pica SC', serif;
     letter-spacing: 2px;
+    margin-bottom: 0%;
     font-size: calc(1rem + 3vw);
     color: #113946;
 }
@@ -58,8 +59,9 @@ h5 {
     letter-spacing: 2px;
     font-weight: 600;
     font-size: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     padding-top: 1rem;
+    margin-bottom: 0px;
 }
 
 .tabletop-title {
