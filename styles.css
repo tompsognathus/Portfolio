@@ -116,6 +116,10 @@ h5 {
 }
 
 /* Games section */
+.cards-section-header {
+    margin-top: 3rem;
+}
+
 .card {
     background-color: #EAD7BB;
     border-color: #BCA37F;
@@ -130,11 +134,12 @@ h5 {
     font-size: 1rem;
     padding: 0%;
     padding-left: 10%;
+    padding-right: 10%;
     text-align: left;
 }
 
 .card-title {
-    padding-bottom: 4px;
+    padding-bottom: 0px;
     padding-top: 0px;
 }
 
@@ -144,6 +149,7 @@ h5 {
 
 .card-text {
     font-size: 1rem;
+    margin: 0px;
 }
 
 .tabletop-card-image {
