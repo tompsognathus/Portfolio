@@ -218,3 +218,27 @@ h5 {
     background-color: #113946;
     color: #FFF2D8;
 }
+
+.btn:hover {
+    --bs-btn-color: #113946;
+    --bs-btn-border-color: #FFF2D8;
+    --bs-btn-hover-color: #113946;
+    --bs-btn-hover-bg: #FFF2D8;
+    --bs-btn-hover-border-color: #113946;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+}
+.btn-youtube:hover {
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: red;
+}
+.btn-artstation:hover {
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-color: #12AAE8;
+}
+
+.btn-github:hover {
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-color: white;
+}
