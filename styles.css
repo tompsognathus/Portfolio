@@ -1,5 +1,40 @@
 /* https://colorhunt.co/palette/fff2d8ead7bbbca37f113946 */
 
+
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/idle-fingers.css');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body .gist .gist-file {
+  border-color: #555 #555 #444;
+  border-style: hidden;
+  width: 100%;
+  
+}
+body .gist .gist-data {
+  border-color: #555;
+  background-color: #373737;
+  width: 100%;
+}
+body .gist .gist-meta {
+  color: #ffffff;
+  background: #373737; 
+}
+body .gist .gist-meta a {
+  color: #ffffff
+}
+body .gist .gist-data .pl-s .pl-s1 {
+  color: #a5c261
+}
+
+.code-embed {
+    padding-top: 5pt;
+    padding-bottom: 10pt;
+}
+
+
+
+
 html, body { margin: 0; padding: 0; } 
 
 body {
@@ -328,6 +363,8 @@ a:hover {
     border: none;
     text-align: left;
     outline: none;
+    padding-top: 3pt;
+    padding-bottom: 5pt;
 }
 
 .odyssey-section-title-arrow {
