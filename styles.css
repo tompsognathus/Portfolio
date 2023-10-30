@@ -362,7 +362,9 @@ a:hover {
 
 /* About Me */
 .cv-section {
-    margin: 0 15%;
+    max-width: 80rem;
+    margin: auto;
+
 }
 
 .cv-section-title {
@@ -419,6 +421,8 @@ a:hover {
 }
 
 .about-me-text {
+    max-width: 80rem;
+    margin: auto;
     margin-top: 20pt;
     margin-bottom: 20pt;
 }
