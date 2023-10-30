@@ -33,7 +33,7 @@ body {
 h1 {
     font-family: 'IM Fell Double Pica SC', serif;
     letter-spacing: 2px;
-    font-size: calc(1rem + 5vw);
+    font-size: calc(1rem + 3vw);
     padding-bottom: 0;
     padding-top: 2.5rem;
     color: #113946;
