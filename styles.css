@@ -43,7 +43,7 @@ h2 {
     font-family: 'IM Fell Double Pica SC', serif;
     letter-spacing: 2px;
     margin-bottom: 0%;
-    font-size: calc(1rem + 3vw);
+    font-size: calc(1rem + 2vw);
     color: #113946;
 }
 
@@ -144,7 +144,9 @@ a:hover {
     border-color: #BCA37F;
     border-radius: 5pt 5pt 5pt 5pt;
     border-width: 6px;
-    margin: 3rem auto;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
     max-width: 70rem;
     padding: 2.5%;
 }
