@@ -86,7 +86,7 @@ a:hover {
 }
 
 .content {
-    padding: 0 10%;
+    padding: 0 20%;
 }
 
 /* Navigation tabs */
@@ -126,7 +126,7 @@ a:hover {
     border-top-right-radius: .25rem;
     border: 1px solid transparent;
     color: #113946;
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(1rem + 0.25vw);
 }
 
 /* Games section */
