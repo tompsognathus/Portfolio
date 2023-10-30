@@ -35,7 +35,7 @@
     <h1>Odyssey</h1>
     <h3>A Visual Novel RPG</h3>
     <br>
-    <div class="odyssey-intro text-muted">
+    <!-- <div class="odyssey-intro text-muted">
         Many years ago, the Goblins of the Turtle Cove led simple lives. They were farmers, shepherds, fishermen...
         Every morning, as the sun came up over the Westward hills, music would fill the air
         as the Goblins emerged from their huts, ready for another ordinary, but busy day. More than anything,
@@ -57,6 +57,96 @@
         later, with heavy hearts, a group of the strongest and fittest among them set sail to the East, in search of 
         the mysterious island.
 
+    </div> -->
+
+    <div class="odyssey-content">
+        I developed a tech demo for Odyssey as my main project for the <a href="https://join.mastered.com/"
+            target="_blank">Mastered bootcamp</a>. As I participated as an Unreal Engine 5 programmer, I spent most
+        of my time on programming the game's core systems. Check out the code on
+        <a href="https://github.com/tompsognathus/odyssey/tree/main" target="_blank">GitHub</a>.
+
+        <!-- Menu System -->
+        <button type="button" class="odyssey-section-title">
+            <span class="odyssey-section-title-name">Menu System</span> <span
+                class="odyssey-section-title-arrow">▼</span>
+        </button>
+        <div class="collapsible-content">
+            <div class="odyssey-section-body text-muted">
+                <div>
+                    Odyssey features a variety of different UserWidgets for the different menus and UI elements in the
+                    game.
+                    Some examples include the inventory system or the dialogue system.
+
+                    The menu system is designed in a way, where all the different menus are children of a single parent
+                    widget
+                    (UIManager) with a widget switcher responsible for activating and deactivating the different menus.
+                    This
+                    makes it easy to activate any menu from anywhere in the game, as long as the UIManager is
+                    accessible. It is
+                    also simple to add additional User Widgets to the UI Manager.
+                </div>
+
+                <div>
+                    First we create the parent widget containing a widget switcher:
+                    <script src="https://gist.github.com/tompsognathus/efddbf5687873d22471ea1918a55d10a.js"></script>
+                </div>
+
+                <div>
+                    Next we add the different menus as children of the parent widget:
+                    <script src="https://gist.github.com/tompsognathus/120fd01dad7a8fa6ca65a655a76eff45.js"></script>
+                </div>
+
+                <div>
+                    We can then display any widget:
+                    <script src="https://gist.github.com/tompsognathus/4efe4be65aaab97a82e1e30b052aa85e.js"></script>
+                </div>
+
+                <div>
+                    An interface can be used to prepare a widget before it is displayed, for example to update the
+                    inventory UI to reflect inventory contents.
+                    <script src="https://gist.github.com/tompsognathus/23dabd96f504fe42837a7bc057117a96.js"></script>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Inventory System -->
+
+        <button type="button" class="odyssey-section-title">
+            <span class="odyssey-section-title-name">Inventory System</span> <span
+                class="odyssey-section-title-arrow">▼</span>
+        </button>
+        <div class="collapsible-content">
+            <div class="odyssey-section-body text-muted">
+                <div>
+                    Coming Soon
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <script>
+            var coll = document.getElementsByClassName("odyssey-section-title");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active-collapsible");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
     </div>
 
 </body>

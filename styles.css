@@ -303,6 +303,63 @@ a:hover {
     margin: 0 25%;
 }
 
+.odyssey-content {
+    font-size: 1.5rem;
+    max-width: 80rem;
+    margin: auto;
+    text-align: left;
+}
+
+.odyssey-section-body {
+    padding-top: 1rem;
+}
+
+/* Collapsible section button */
+.odyssey-section-title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    background-color: #EAD7BB;
+    color: #113946;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.odyssey-section-title-arrow {
+    float: right;
+    font-size: 2.5rem;
+    text-align: right;
+    width: 50%;
+}
+
+.odyssey-section-title-name {
+    float: left;
+    width: 50%;
+}
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active-collapsible, .odyssey-section-title:hover {
+    background-color: #BCA37F;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .collapsible-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #EAD7BB;
+  }
+
+.gist-data{
+    height:250px;
+    width: 80rem;
+    overflow-y: visible;
+}
+
+
 /* About Me */
 .cv-section {
     margin: 0 15%;
@@ -378,3 +435,10 @@ a:hover {
     padding-left: 20pt;
 
 }
+
+
+
+
+
+
+
